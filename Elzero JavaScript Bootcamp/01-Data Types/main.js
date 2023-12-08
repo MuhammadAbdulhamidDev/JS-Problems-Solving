@@ -44,18 +44,18 @@
 //############################## Task 04 ############################//
 //###################################################################//
 
-let title = "Elzero",
-  description = "Elzero Web School",
-  date = "25/10";
+// let title = "Elzero",
+//   description = "Elzero Web School",
+//   date = "25/10";
 
-let cardTemplate = `<div class = "card">
-                <h3>Hello ${title}</h3>
-                <p>${description}</p>
-                <span>${date}</span>
-           </div`;
-let numberOfCards = 5;
-let cards = cardTemplate.repeat(numberOfCards);
-document.write(cards);
+// let cardTemplate = `<div class = "card">
+//                 <h3>Hello ${title}</h3>
+//                 <p>${description}</p>
+//                 <span>${date}</span>
+//            </div`;
+// let numberOfCards = 5;
+// let cards = cardTemplate.repeat(numberOfCards);
+// document.write(cards);
 
 //###################################################################//
 //############################## Task 05 ############################//
@@ -110,11 +110,11 @@ document.write(cards);
 
 // let points = 10;
 
-// // ++points;
-// // points += true;
-// // ++points;
+// ++points;
+// points += true;
+// ++points;
 
-// // console.log(points); // 13
+// console.log(points); // 13
 
 // --points;
 // points--;

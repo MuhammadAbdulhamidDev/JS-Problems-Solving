@@ -1,0 +1,72 @@
+p {
+  margin-bottom: 0 !important;
+}
+/* Start Nav Section */
+nav {
+  z-index: 1000;
+}
+.logo-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.25rem;
+  line-height: 2;
+  color: #f8f9fa;
+}
+.logo-title > span:first-of-type {
+  color: #ff0000;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.logo-title > span:nth-of-type(2) {
+  color: #ffffff;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+/* End Nav Section */
+/* Start Header Section */
+header {
+  background-image: url(../img/Palestine\ wallpaper.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+.bg-overlay {
+  background-color: rgba(28, 28, 28, 0.6);
+}
+.card {
+  min-width: 60rem !important;
+}
+.card-body {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+  min-height: 23rem;
+}
+.quote_autor {
+  font-size: 2.5rem;
+  font-weight: 900;
+  font-family: "Beau Rivage", cursive !important;
+}
+.quote_autor > span:first-of-type {
+  color: #198754;
+}
+.quote_autor > span:nth-of-type(2) {
+  color: #f8f9fa;
+}
+.quote_para {
+  font-size: 1.75rem;
+}
+.quote-icon {
+  font-size: 5rem;
+  animation: moveUpDown 1s infinite;
+  -webkit-animation: moveUpDown 1s infinite;
+}
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+/* End Header Section */
